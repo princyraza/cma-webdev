@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tables</title>
+  <!-- The style applied to the table -->
+  <!--<style>
+    table,th,td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>-->
+</head>
+
+<body>
+  <!-- A table -->
+  <table>
+    <tr> <!-- define a row -->
+      <th>Firstname</th> <!-- A header cell -->
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr> <!-- another row -->
+      <td>Foo</td> <!-- a normal cell-->
+      <td>Bar</td>
+      <td>94</td>
+    </tr>
+  </table>
+
+  <br>
+  <br>
+  <table border="1"> <!-- Notice the attribute border that changes the style of the table -->
+    <thead> <!-- The head of the table -->
+      <tr>
+        <th></th>
+        <th>Area</th>
+        <th>Mean depth</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>million km<sup>2</sup></th>
+        <th>m</th>
+      </tr>
+    </thead>
+    <tbody> <!-- the body of the table -->
+      <tr>
+        <th>Arctic</th>
+        <td>13,000</td>
+        <td>1,200</td>
+      </tr>
+      <tr>
+        <th>Atlantic</th>
+        <td>87,000</td>
+        <td>3,900</td>
+      </tr>
+      <tr>
+        <th>Pacific</th>
+        <td>180,000</td>
+        <td>4,000</td>
+      </tr>
+      <tr>
+        <th>Indian</th>
+        <td>75,000</td>
+        <td>3,900</td>
+      </tr>
+      <tr>
+        <th>Southern</th>
+        <td>20,000</td>
+        <td>4,500</td>
+      </tr>
+    </tbody>
+    <tfoot> <!-- The foot of the table -->
+      <tr>
+        <th>Total</th>
+        <td>361,000</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Mean</th>
+        <td>72,000</td>
+        <td>3,800</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+
+</html>
