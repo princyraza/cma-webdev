@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Class 4: css explanation</title>
+    <!-- CSS stands for Cascading Style Sheet -->
+    <!-- CSS = describes how HTML elements are to be displayed -->
+    <!-- We can transform the way a tag is displayed using CSS -->
+
+    <!-- The CSS can be in the header -->
+    <style>
+      /* This CSS property is changing the way all the p tags are displayed in this document */
+      p {
+        color: red;
+      }
+    </style>
+
+    <!-- The CSS can be in a external file -->
+    <!-- External CSS file are useful when you want to change the display of several pages at the same time -->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+  </head>
+  <body>
+    <!-- Inline CSS = the style we want to apply is in the tag itself -->
+    <h1 style="color: blue; text-align: center; font-size: 14px">This is a h1 modified by an inline CSS</h1>
+    <h1>This h1 is not modified by an inline CSS</h1>
+
+    <!-- These paragraphs' style are changed by the CSS in the header  -->
+    <p>
+      This is a text inside a paragraph tag.
+    </p>
+    <p>
+      This is another text inside a paragraph tag.
+    </p>
+    <p style="color: green">
+      This is yet another text inside a parapgraph. However the style is overrriden by an "inline" CSS property.
+    </p>
+
+    <h2>This is a h2 title</h2>
+
+    <p>
+      There are many CSS property. It is not practical to learn them all.
+      You can find a lot of them <a href="http://www.w3schools.com/cssref/default.asp">here</a>.
+      I en courage you to try some of them on this page.
+    </p>
+
+
+  </body>
+</html>

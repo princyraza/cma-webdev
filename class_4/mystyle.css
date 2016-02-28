@@ -1,0 +1,11 @@
+body {
+  /* This property will apply to the tag body and its children */
+  /* Notice that we use a color code here and not the name of color */
+  /* Color code are useful because they specify a precise color */
+  /* This code is called hexadecimal color code. It is used on the web and in
+  grpahical software like Phototshop
+  If you want to know more about colors head here: https://www.mathsisfun.com/hexadecimal-decimal-colors.html*/
+  color: #2D89C6;
+}
+
+/* You can define many more CSS rules in this file. You should play with it. */
